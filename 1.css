@@ -1,8 +1,24 @@
 * {margin:0px;padding:0px;}
-.maunen {
-    background-color: white!important;
+a.navbar-brand.pull-right.nutlen.maunenduoi {
+    opacity:1;
 }
 
+
+a.navbar-brand.pull-right.nutlen {
+    opacity: 0;
+    background:#414141;
+    color:white;
+    padding: 7px 15px;
+    border-radius: 50%;
+    transition:0.3s;
+}
+
+nav.navbar.navbar-light.bg-faded.navbar-fixed-bottom {
+    background-color: transparent;
+}
+nav.navbar.navbar-light.bg-faded.navbar-fixed-top.maunen {
+    background-color: white!important;
+}
 
 a.btn.btn-info.nutgit {
     font-weight: bold;
@@ -209,6 +225,11 @@ a.navbar-brand.logo {
 a.navbar-brand.logo:hover {
     color:#fb1212;
 }
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
 
 @media (max-width: 575px) {
     * {}
@@ -242,5 +263,7 @@ div#menu {
     border-radius: 10px;
     margin-top: 13px;
 }
-
+.maunenmobile {
+    background-color: white!important;
+}
 }
