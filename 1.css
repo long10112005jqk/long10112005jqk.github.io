@@ -1,4 +1,100 @@
 * {margin:0px;padding:0px;}
+.maunen {
+    background-color: white!important;
+}
+
+
+a.btn.btn-info.nutgit {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a.btn.btn-info.nutface {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    padding: 8px 14px;
+}
+.dstt a:hover {
+    color:orange;
+    margin-left: 6px;
+}
+
+
+.dstt a {
+    color: #9e9e9e;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+li.dstt {
+    margin: 9px 0px;
+}
+.footer {
+    background-color: #323232;
+    color: #9e9e9e;
+    padding: 43px 0px;
+}
+
+
+li.phone {
+    font-weight: bold;
+    margin: 7px 0px;
+}
+
+li {}
+
+a.gmail {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    color:#9e9e9e;
+    transition:0.2s;
+}
+
+a.gmail:hover {
+    color:orange;
+}
+
+li.adress {
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+li.tenct {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.thongtinduoi {
+    margin-top: 15px;
+
+}
+
+.tdfooter span {
+    border-left: 3px solid #ffffff80;
+    border-right: 3px solid #ffffff80;
+    padding: 3px 15px;
+    font-weight: bold;
+    color: #e8a832;
+    text-transform: uppercase;
+}
+.doitac {
+    margin-bottom:60px;
+}
+
+
+.doitac .container {
+    border: 1px solid #c5afaf;
+    padding: 15px;
+    border-radius: 14px;
+}
+
+
+.row.taitro .col-sm-3 {
+    text-align: center;
+}
 
 .sp2 .container {
     border-left: 1px solid #41414140;
@@ -28,6 +124,8 @@ a.btn.btn-info.bg-sm.nutsp.text-xs-right {margin-left: 65%;padding: 8px 22px;fon
     border-right: 3px solid orange;
     display: block;
     width: 145px;
+    text-transform:uppercase;
+    text-align: center;
 }
 .bocimg {
     width: 100%;
@@ -85,6 +183,7 @@ a.right.carousel-control,a.left.carousel-control {
 
 nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
     background: transparent;
+    transition:0.3s;
 }
 
 a.nav-link.linkmenu {
@@ -113,6 +212,22 @@ a.navbar-brand.logo:hover {
 
 @media (max-width: 575px) {
     * {}
+
+.dichvao {
+    padding-left: 16px;
+}
+
+.tdfooter {
+    margin-bottom: 27px;
+}
+
+a.navbar-brand.logo {
+    font-size: 23px;
+}
+
+.col-sm-3 {
+    margin: 16px 0px;
+}
 
 a.nav-link.linkmenu {
     color: white!important;
