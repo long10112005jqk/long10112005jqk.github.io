@@ -27,5 +27,31 @@
  		$('html').animate({'scrollTop':0});
  		return false;
  	})
-})  
+
+}) 
+document.addEventListener("DOMContentLoaded",function() {
+	var nutan = document.getElementById("nutan"),
+		menu = document.getElementsByClassName("menu"),
+		nenden = document.getElementsByClassName("nenden"),
+		khoito = document.getElementsByClassName("khoito"),
+		tt = false;
+	var menu = menu[0],
+		nenden = nenden[0],
+		khoito	 = khoito[0];
+	nutan.onclick = function() {
+		menu.classList.add("dayra");
+		nenden.classList.add("hienden");
+		khoito.classList.add("nhovao");
+		tt = true;
+	}
+	nenden.onclick = function() {
+		if (tt = true) 
+		{
+			menu.classList.remove("dayra");
+			nenden.classList.remove("hienden");
+			khoito.classList.remove("nhovao");
+			tt = false;
+		}
+	}
+},false)
  
