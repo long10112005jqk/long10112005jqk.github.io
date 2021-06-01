@@ -53,5 +53,6 @@ document.addEventListener("DOMContentLoaded",function() {
 			tt = false;
 		}
 	}
+	console.log(document.cookie);
 },false)
  
