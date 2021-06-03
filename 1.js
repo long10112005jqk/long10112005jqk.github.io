@@ -25,7 +25,7 @@
         {
             muc2.classList.add("cdmuc2");
         }
-         if (window.pageYOffset > muc1.offsetTop+1000) 
+         if (window.pageYOffset > muc1.offsetTop+600) 
         {
             muc3.classList.add("cdmuc3");
         }
