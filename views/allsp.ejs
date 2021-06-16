@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SHOPVIET</title>
+    <script type="text/javascript" src="./../vendor/bootstrap.js"></script>
+	<link rel="stylesheet" href="./../vendor/bootstrap.css">
+	<link rel="stylesheet" href="./../vendor/font-awesome.css">
+ 	<link rel="stylesheet" href="./../stylesheets/1.css">
+</head>
+<body>
+	<% include ./template/menu %>
+   <!-- xong menu -->
+ 	<div class="khoisale khoi4">
+ 		<div class="container">
+	 		<div class="jumbotron text-xs-center">
+	 			<h1 class="display-3">Tất Cả Sản Phẩm</h1>
+	 		</div>
+	 		<div class="row ">
+	 			<% data.forEach(function(motsp) { %>
+	 			<div class="col-sm-3">
+	 				<div class="card text-center shadow">
+				 		<img class="card-img-top img-fluid" src="../img/<%= motsp.img %>" alt="Card image cap">
+				 		<div class="card-body">
+				 			<span class="id">ID:<%= motsp.id %></span>
+				 			<a class="style" href="#"><%= motsp.kieu %></a>
+				 			<span class="price"><i class="priceold"><%= motsp.giagiam %>VNĐ</i> <%= motsp.giamoi %>VNĐ</span>		
+				 			<a href="/trang-chu/giohang/<%= motsp._id %>" class="btn btn-primary"><i class="fa fa-shopping-basket"></i> Thêm Vào Giỏ Hàng</a>
+				 		</div>
+				 	</div>
+	 			</div>
+	 			<% }) %>
+	 		</div>
+ 		</div>
+ 	</div>
+
+ 	<% include ./template/footer %> <!-- xong footer -->
+</body>
+</html>

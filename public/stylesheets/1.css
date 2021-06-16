@@ -1,0 +1,504 @@
+*{margin: 0; padding: 0;}
+
+.khoi7 .col-sm-3 {
+    text-align: center;
+}
+
+.tinhtien p.tong {
+}
+
+.tinhtien p.texttien {
+    /* float: left; */
+}
+
+.tinhtien {
+    border-top: 1px solid #80808063;
+    border-bottom: 1px solid #80808063;
+    display: block;
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.khoi6 span.id {
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+}
+
+.khoi4 span.id {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000b0;
+}
+
+.khoisale.khoi4 {
+    border-bottom: 1px solid #80808070;
+    padding-bottom: 100px;
+}
+
+.coticon a {
+    color: #544646;
+}
+
+.list-unstyled li a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.3s;
+}
+
+.list-unstyled li a:hover {
+    color: #6f6161;
+}
+
+.footer .list-unstyled li {
+    color: gray;
+    margin: 18px 0;
+}
+
+.footer h4.td {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 33px;
+}
+
+.footer p.khoitext {
+    color: #607d8b;
+    margin-top: 15px;
+}
+
+.footer h3.td {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer {
+    padding: 60px 0;
+}
+
+.footer i.fa.fa-github {
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 23px 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #386d86;
+}
+
+.footer i.fa.fa-github:hover {
+    background: #ff5722;
+}
+
+.footer i.fa.fa-facebook:hover {
+    background: #ff5722;
+}
+
+.footer i.fa.fa-facebook {
+    border-radius: 50%;
+    border: 1px solid gray;
+    font-size: 24px;
+    padding: 19px 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #386d86;
+}
+
+.khoi7 {
+    /* margin-bottom: 50px; */
+    border-bottom: 1px solid #808080ab;
+    padding-bottom: 35px;
+}
+
+.khoi6 a.btn.btn-info {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.khoi6 span.price {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.khoi6 a.style {
+    font-size: 28px;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #a98d8d;
+    transition: 0.3s;
+}
+
+.khoi6 a.style:hover {
+    color: #8c7070;
+}
+
+.khoi6 h1 {
+    text-transform: capitalize;
+    font-size: 37px;
+    font-style: italic;
+}
+
+.khoi6 {
+    margin-top: 63px;
+    margin-bottom: 63px;
+    border-top: 1px solid #8080809e;
+    border-bottom: 1px solid #8080809e;
+    padding: 81px;
+}
+
+.menu a.nav-link {
+    color: white!important;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a.nav-link:hover {
+    color: #e2cece!important;
+}
+
+i.priceold {
+    font-style: normal;
+    color: #808080c4;
+    text-decoration: line-through;
+    font-style: italic;
+    display: block;
+}
+
+.khoi4 .card-body i.fa.fa-shopping-basket {
+    font-size: 20px;
+}
+
+.khoi4 a.btn.btn-primary {
+    width: 100%;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 0px;
+}
+
+.khoi4 span.price {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.khoi4 .card-body {
+    padding: 12px 0;
+}
+
+.khoi4 a.style {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    color: #ad9c9c;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.khoi4 a.style:hover {
+    color: gray;
+}
+
+.khoi4 .card.text-center.shadow {
+    padding: 7px;
+}
+
+.thanhmenu a.btn.btn-success {
+    float: right;
+    margin-top: 8px;
+    background: black;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.thanhmenu h3 {
+    font-size: 23px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.thanhmenu {
+    width: 100%;
+    height: 50px;
+    border-bottom: 0.5px solid gray;
+    margin-bottom: 20px;
+}
+
+.khoi3 .card-body a.btn.btn-primary {
+    background: black;
+    border: 0px;
+    border-radius: 0px;
+    margin-top: 9px;
+}
+
+.khoi3 .card-body {
+    width: 100%;
+    height: 100%;
+    margin-left: 4%;
+    margin-top: 13%;
+}
+
+.khoi3 h4.card-title {
+    color: white;
+    text-transform: capitalize;
+    display: block;
+}
+
+.khoi3 .container .row {
+    height: 100%;
+}
+
+.khoi3 .container .row .col-sm-6 {
+    height: 100%;
+}
+
+.khoi3 .card.text-center .row .col-sm-6 {
+    height: 100%;
+}
+
+.col-sm-6.khoiten {
+    padding: 10% 0;
+}
+
+.col-sm-6.khoiten {
+}
+
+.khoi3 .card.text-center .row {
+    height: 100%;
+}
+
+.khoi3 img.card-img-top.img-fluid {
+    width: 100%;
+    height: 100%;
+}
+
+.khoi3 .card.text-center {
+    height: 100%;
+    margin: 0;
+    background: #009dd0;
+    border: 0px;
+}
+
+.khoi3 {
+    height: 350px;
+    padding: 3% 0;
+}
+
+.khoi3 .container {height: 100%;}
+
+.khoi2 p.doantext {
+    font-size: 16px;
+    font-family: rahoma;
+    letter-spacing: 1px;
+}
+
+h2.td {
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.khoi2 {
+    padding: 10% 0;
+}
+
+.khoi2 .card.bg-light {
+    margin: 0;
+    padding: 0 4%;
+    position: relative;
+    border: 0px;
+}
+
+.khoi2 .card.bg-light:before {content: " ";position: absolute;width: 100%;height: 14px;bottom: 0;left: 0;background: #fd972e;transform: translateY(100%);}
+
+.khoi2 .col-sm-3 {
+    position: relative;
+}
+
+.khoi2 .card-body {
+    background: white;
+    border-right: 1px solid #e2c9c9;
+}
+
+.khoi2 .card-body .col-sm-8 {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.khoi2 .card-body .row {
+    height: 70px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.khoi2 i.fa {
+    font-size: 39px;
+}
+
+i.fa.fa-long-arrow-right.iconduoi {
+    position: absolute;
+    bottom: -100%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #09162aad;
+    transition: 0.4s;
+    opacity: 0;
+    color: white;
+}
+
+i.fa.fa-cart-arrow-down.icontren {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    opacity: 1;
+    background: #fd972e;
+}
+
+.khoi2 .col-sm-4.coticon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.khoi2 .card.bg-light:hover .col-sm-4.coticon .icontren {
+    top: -100%;
+    opacity: 0;
+}
+
+.khoi2 .card.bg-light:hover .col-sm-4.coticon .iconduoi {
+    bottom: 0%;
+    opacity: 1;
+}
+
+.banner .khoi i {}
+
+i.fa.fa-arrow-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    z-index: 2;
+    font-size: 54px;
+    color: white;
+    transform: translateY(-50%);
+    cursor: pointer;
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i.fa.fa-arrow-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    z-index: 2;
+    font-size: 54px;
+    color: white;
+    transform: translateY(-50%);
+    cursor: pointer;
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .khoi img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.banner .khoi {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.menu a.navbar-brand {
+    text-transform: uppercase;
+}
+
+.menu nav.navbar.navbar-light.bg-faded {
+    background-color: transparent;
+}
+
+.menu {}
+
+.menu li.nav-item {
+    margin: 0 57px;
+    font-size: 19px;
+} 
+html,body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    
+}
+.action {
+    animation: divao 1s forwards;
+}
+@-webkit-keyframes divao {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+        visibility: hidden;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+.action1 {
+    animation: dira 0.4s forwards;
+}
+@-webkit-keyframes dira {
+    from {
+        /*transform: scale(1);*/
+        opacity: 1;
+        visibility: visible;
+    }
+    to {
+        /*transform: scale(0.8);*/
+        opacity: 0 ;
+        visibility: hidden;
+    }
+}
+.hien {
+    opacity: 1!important;
+    visibility: visible!important ;
+    z-index: 0!important;
+}

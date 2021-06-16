@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SHOPVIET</title>
+    <script type="text/javascript" src="./../vendor/bootstrap.js"></script>
+	<link rel="stylesheet" href="./../vendor/bootstrap.css">
+	<link rel="stylesheet" href="./../vendor/font-awesome.css">
+ 	<link rel="stylesheet" href="./../stylesheets/1.css">
+</head>
+<body>
+   <% include ./template/menu %> <!-- xong menu -->
+ 	<div class="khoisale khoi4">
+ 		<div class="container">
+	 		<div class="jumbotron text-xs-center">
+	 			<h1 class="display-3">Sản Phẩm Mới</h1>
+	 			<p class="lead">Các sản phẩm mới chất lượng cao có ở đây</p>
+	 		</div>
+	 		<div class="row">
+	 				<% var solan = 0; %>
+	 				<% if (data.length-3 >= 0) { %>
+	 				<% for (var i = data.length-1; (i >= data.length/3.5 && solan < 12);i--) { %>
+	 				<% solan = solan + 1; %>
+	 			<div class="col-sm-3">
+	 				<div class="card text-center shadow">
+				 		<img class="card-img-top img-fluid" src="../img/<%= data[i].img %>" alt="Card image cap">
+				 		<div class="card-body">
+				 			<span class="id">ID: <%= data[i].id %></span>
+				 			<a class="style" href="#"><%= data[i].kieu %></a>
+				 			<span class="price"><i class="priceold"><%= data[i].giagiam %>VNĐ</i> <%= data[i].giamoi %>VNĐ</span>		
+				 			<a href="/trang-chu/giohang/<%= data[i]._id %>" class="btn btn-primary"><i class="fa fa-shopping-basket"></i> Thêm Vào Giỏ Hàng</a>
+				 		</div>
+				 	</div>
+	 			</div>
+	 			<% 
+	 			}
+	 			} %>
+	 		</div> <!-- het row -->
+ 		</div>
+ 	</div>
+
+ 	<% include ./template/footer %> <!-- xong footer -->
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../.././vendor/bootstrap.css">
+  <link rel="stylesheet" href="../.././vendor/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../.././stylesheets/1.css">
+    <title>SHOPVIET</title>
+  </head>
+  <body>
+    <div class="menu">
+    <nav class="navbar navbar-light bg-faded navbar-fixed-top">
+      <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#menu">
+      
+      </button>
+      <div class="container">
+      <div class="collapse navbar-toggleable-xs" id="menu">
+      <a class="navbar-brand" href="/"><img src="../.././images/logo.png"></a>
+      <ul class="nav navbar-nav float-sm-right">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Trang Chủ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/trang-chu/allsp">Sản Phẩm</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Liên Hệ: +8435 833 1597</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/trang-chu/giohang"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Giỏ Hàng</a>
+        </li>
+      </ul>
+      </div>
+      </div>
+    </nav>
+  </div> <!-- het menu -->
+    <div class="container">
+    	<div class="jumbotron text-sm-center">
+    	  <h1 class="display-4">Danh Sách Sản Phẩm Chọn</h1>  
+    	</div>
+    	<table class="table table-inverse table-bordered">
+    		<thead>
+    			<tr>
+    				<th>ID</th>
+    				<th>Kiểu</th>
+    				<th>Giá Cũ</th>
+    				<th>Phần Trăm</th>
+            <th>Giá Mới</th>
+    				<th>Xóa</th>
+    			</tr>
+    		</thead>
+    		<tbody>
+          
+          <% var tong = 0 %>
+          <% data.forEach(function(sp) { %>
+    			<tr>
+    				<td><%= sp.id %></td>
+    				<td><%= sp.kieu %></td>
+    				<td><%= sp.giagiam %></td>
+    				<td><%= sp.phantram %>%</td>
+            <td><%= sp.giamoi %></td>
+    				<td><a href= "/trang-chu/giohang/xoa/<%= sp._id %>" class="fa fa-times" style="color: black;text-decoration: none;"></a></td>
+    			</tr>
+          <% 
+          })       
+           %>
+    		</tbody>
+    	</table>
+      <% if (data.length > 0 ) { %>
+    	<%- '<a href="/trang-chu/formdk" class="btn btn-success" style="float:right;margin-top: 20px;">Xác Nhận Mua</a>' %>
+      <% } %>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="../.././vendor/bootstrap.js"></script>
+  </body>
+</html>
