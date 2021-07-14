@@ -1,4 +1,22 @@
 *{margin: 0px;padding: 0px;}
+
+.ListInfo {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.7s;
+    
+}
+.ListInfo.Off {
+    height: 0;
+}
+
+.ListInfo.Show {
+    height: 200px;
+}
+
 body {
     background-image: url('./Images/background2.jpg');
     background-repeat: no-repeat;
@@ -30,6 +48,11 @@ h5.NameLink {
     left: 3%;
 }
 
+.LinkNetWork .Link i.fa.fa-info {
+    top: 5px;
+    left: 21px;
+}
+
 .LinkNetWork .Link{
     border: 2px solid #d6b3b3;
     color: white;
@@ -38,6 +61,7 @@ h5.NameLink {
     padding: 0 17px;
     position: relative;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .container.text-center {
@@ -58,10 +82,7 @@ h5.NameLink {
 
 .Header {
     margin: 12px 0;
-}
-
-.Avatar {
-    
+    color: white;
 }
 
 .Avatar img {
