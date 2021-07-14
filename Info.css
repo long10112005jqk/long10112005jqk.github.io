@@ -20,11 +20,12 @@ body {
     background-image: url('./Images/background2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-y: hidden;
 }
 html {
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 h5.NameLink {
     display: inline-block;
